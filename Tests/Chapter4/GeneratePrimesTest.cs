@@ -24,7 +24,6 @@ namespace Tests.Chapter4
         {
             get
             {
-                // Or this could read from a file. :)
                 return new[]
                 {
                     new object[] { 2 , new List<int> {  2 } },
