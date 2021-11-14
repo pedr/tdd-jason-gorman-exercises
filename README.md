@@ -9,7 +9,7 @@ http://www.codemanship.co.uk/tdd_jasongorman_codemanship.pdf
 ## Exercises
 
 ### Chapter 4
-[ ] 1-a - GeneratePrimes
-[ ] 1-b - IntegerToRoman
+[X] 1-a - GeneratePrimes
+[X] 1-b - ArabicNumber
 [ ] 2 - ShoppingCartDiscount
 
