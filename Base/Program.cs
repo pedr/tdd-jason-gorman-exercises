@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using Base.Chapter4;
 
 namespace Base
 {
@@ -6,7 +8,8 @@ namespace Base
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(string.Join(", ", GeneratePrimes.Until(1000)));
+            Console.WriteLine(GeneratePrimes.Until(1000).Count());
         }
     }
 }
