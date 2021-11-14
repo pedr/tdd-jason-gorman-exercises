@@ -9,7 +9,8 @@ http://www.codemanship.co.uk/tdd_jasongorman_codemanship.pdf
 ## Exercises
 
 ### Chapter 4
-[X] 1-a - GeneratePrimes
-[X] 1-b - ArabicNumber
-[ ] 2 - ShoppingCartDiscount
+
+- [x] 1-a - GeneratePrimes
+- [x] 1-b - ArabicNumber
+- [ ] 2 - ShoppingCartDiscount
 
