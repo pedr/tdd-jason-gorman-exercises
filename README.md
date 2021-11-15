@@ -23,4 +23,4 @@ http://www.codemanship.co.uk/tdd_jasongorman_codemanship.pdf
 
 ## Chapter 7
 
-- [ ] 5 - MovieReviewReport
+- [x] 5 - MovieReviewReport
