@@ -11,7 +11,8 @@ namespace Base.Chapter4
         private readonly List<DiscountRule> discountRules = new List<DiscountRule>()
         {
             new DiscountRule(200, 0.1),
-            new DiscountRule(100, 0.05)
+            new DiscountRule(100, 0.05),
+            new DiscountRule(0, 0.0),
         };
         private List<Item> items { get; set; }
 
@@ -39,15 +40,10 @@ namespace Base.Chapter4
 
         private double ApplyDiscount(double total)
         {
-            foreach (var rule in discountRules.OrderByDescending(d => d.Threshold))
-            {
-                if (rule.IsApplicable(total))
-                {
-                    return rule.Apply(total); 
-                }
-            }
-
-            return total;
+            return discountRules
+                .OrderByDescending(d => d.Threshold)
+                .First(d => d.IsApplicable(total))
+                .Apply(total);
         }
     }
 
