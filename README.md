@@ -15,8 +15,12 @@ http://www.codemanship.co.uk/tdd_jasongorman_codemanship.pdf
 - [x] 1-b - ArabicNumber
 - [x] 2 - ShoppingCartDiscount
 
-### Chapter 5
+### Chapter 6
 
-- [ ] 1-a - GeneratePrimes
-- [ ] 1-b - ArabicNumber
-- [ ] 2 - ShoppingCartDiscount
+- [x] 4-1 - Cube
+- [x] 4-2 - Cylinder
+- [ ] 4-3 - Pyramid
+
+## Chapter 7
+
+- [ ] 5 - MovieReviewReport
